@@ -140,6 +140,7 @@ p {
   height: 56px;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .page22 {
   width: 1201px;
@@ -495,6 +496,8 @@ footer a {
 .contact-form button {
   margin-top: 10px;
 }
+
+button {text-align: center;}
  
 @media (max-width: 1024px) {
   /* HEADER */
@@ -659,6 +662,13 @@ footer a {
   }
 }
  
+.submit {background-color: solid #999;; border-radius: 30px; ; 
+  border-width: 1px;
+min-height: 20px;
+max-width: 50;}
+
+
+
 /* Tablet and below */
 @media (max-width: 1024px) {
   header {
