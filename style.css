@@ -655,19 +655,47 @@ footer a {
     height: auto;
     flex-direction: column;
     gap: 40px;
+   
+   
   }
  
-  .finalpagephoto,
+  .finalpagephoto {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  
+   
+  }
+
+
   .finalpageform {
     width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
+   
   }
  
-  .contact-form input,
+  .contact-form input {
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+   
+  }
+
+
+
+
+
+
   .contact-form textarea {
     width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+   
   }
 }
  
@@ -940,5 +968,9 @@ align-items: center
   }
 }
 
-
+.submit {margin-top: 100px;
+border-radius: 30px;
+background-color: #b5b8b6;
+height: 30px;
+}
 
