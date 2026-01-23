@@ -445,10 +445,12 @@ footer a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background: none;
 }
 .finalpagephoto {
   width: 363px;
   height: 489px;
+   background: none;
 }
 .finalpageform {
   width: 365px;
@@ -457,12 +459,15 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+   background: none;
+
 }
 .part3 {
   min-height: 1050px;
   display: flex;
   flex-direction: column;
   align-items: center;
+   background: none;
 }
 .finalpage0 {
   width: 100%;
@@ -473,17 +478,20 @@ footer a {
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
+   background: none;
 }
 .finalform {
   width: 365px;
   height: 391px;
   margin-top: -15px;
+   background: none;
 }
 .finalpageform h1 {
   font-weight: 600;
   font-size: 40px;
   letter-spacing: 0.04em;
   line-height: 1;
+   background: none;
 }
 .contact-form {
   width: 100%;
@@ -491,22 +499,25 @@ footer a {
   flex-direction: column;
   gap: 30px;
   background-color: #f1e6e5;
+   background: none;
 }
 .contact-form input,
 .contact-form textarea {
-  border: none;
-  border-bottom: 1px solid #999;
+  
+  border: 2px solid #1c1c1c; 
   padding: 10px 0;
   font-size: 16px;
   width: 365px;
   height: 53px;
+   background: none;
 }
 .contact-form textarea {
   height: 125px;
+   background: none;
 }
 .contact-form button {
   margin-top: 10px;
-}
+  }
  
 @media (max-width: 1024px) {
   /* HEADER */
